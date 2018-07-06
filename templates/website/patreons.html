@@ -1,0 +1,19 @@
+{% extends 'website/layout.html' %} {% load static %}
+<!-- css -->
+{% block css %}
+    <link rel="stylesheet" href="{% static 'website/patreons/patreons.css' %}">
+{% endblock css %}
+<!-- js -->
+{% block js %}
+    <link rel="stylesheet" href="{% static 'website/patreons/patreons.js' %}">
+{% endblock js %}
+{% block content %}
+    <h1 class="wow fadeInUp">Our sponsors</h1>
+    <hr>
+    <div class="patreons container"> </div>
+    <footer class="p-5 mt-5">
+        <div>
+            <h3 class=text-center>&#169; ECELL NITRR</h3>
+            <p class="text-center text-white-50">All rights reserved</p>
+        </div>
+{% endblock content %}
