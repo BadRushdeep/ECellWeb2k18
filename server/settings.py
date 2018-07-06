@@ -37,6 +37,7 @@ ALLOWED_HOSTS = ['.herokuapp.com','localhost','127.0.0.1']
 
 INSTALLED_APPS = [
     'rest_framework',
+    'team',
     'events',
     'bquiz',
     'contactus',
