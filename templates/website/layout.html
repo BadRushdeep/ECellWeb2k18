@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>ES18-home</title>
+    <link href=https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css rel=stylesheet>
+    
+    {% block css %}
+        css goes here
+    {% endblock css %}
+        
+    <link href="{% static 'website/menubar/menubar.css' %}" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    {% include 'website/menubar.html' %}
+    <header>
+        <h1 class="wow fadeInUp">E-SUMMIT 18</h1>
+        <p class="p-1 m-0 wow zoomIn" data-wow-delay=.3s>
+            <span class=bold>"</span> Don't fit in, just standout
+            <span class=bold>"</span>
+        </p>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </header>
+
+
+    {% block content %}
+    <h1>from the layout.html</h1>
+    {% endblock content %}
+
+    <!-- footer -->
+    {% include 'website/footer.html' %}
+    
+    {% block js %}
+        js goes here
+    {% endblock js %}
+        
+    <script type="text/javascript" src="{% static 'website/menubar/menubar.js' %}"></script>
+</body>
+
+</html>

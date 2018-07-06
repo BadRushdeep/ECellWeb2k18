@@ -1,0 +1,128 @@
+{% extends 'website/layout.html' %} {% load static %}
+<!-- css -->
+{% block css %}
+    <link rel="stylesheet" href="{% static 'website/events/events.css' %}">
+{% endblock css %}
+<!-- js -->
+{% block js %}
+    <link rel="stylesheet" href="{% static 'website/events/events.js' %}">
+{% endblock js %}
+<!-- main content -->
+{% block content %}
+<section id=articles>
+    <article id=BQUIZ>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInLeft">BQUIZ</h2>
+                <p class="wow fadeInUp">Get your cortex fixed cause this quiz spins your head around. Let's explore some of the de facto of business
+                    quizzing. Guide your cerebrum's way to this b-quiz that will catapult you into the world of business
+                    facts and figures. </p>
+            </div>
+            <div class="img wow fadeInRight">
+                <img src='{% static  "website/img/bquiz.png" %}' alt=""> </div>
+        </div>
+    </article>
+    <div class=right-grey>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </div>
+    <article id=IGNITION class=reverse-layout>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInRight">IGNITION</h2>
+                <p class="wow fadeInUp">"Ignition" is a business model competition that will connect ideas of entrepreneurs with investors. This
+                    will help the startups to gain traction and also provide an opportunity to be funded by some of the top
+                    investors in india. A business model competition aims to connect the new start-ups with investors by
+                    creating a direct channel between them.</p>
+            </div>
+            <div class="img wow fadeInLeft">
+                <img src='{% static "website/img/ignition.png" %}' alt=""> </div>
+        </div>
+    </article>
+    <div class=right-white>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </div>
+    <article id=ENTROPY>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInLeft">ENTROPY</h2>
+                <p class="wow fadeInUp">Giving wings to ideas and ground to the unknown, this session is to guide, inspire and bring out the best
+                    from the budding comrades. Words, if they hit the adrenaline rush can make you do wonders. This speaker
+                    session can make you look beyond the ordinary in order to be above the ordinary. </p>
+            </div>
+            <div class="img wow fadeInRight">
+                <img src='{% static "website/img/entropy.png" %}' alt=""> </div>
+        </div>
+    </article>
+    <div class=right-grey>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </div>
+    <article id=CRICNOMETRICA class=reverse-layout>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInRight">CRICNOMETRICA</h2>
+                <p class="wow fadeInUp">Cricnometrica is an event designed to provide a stage for entertainment as well as a platform to showcase
+                    the individuals or teams knowledge of the game of cricket. A team game comprising of three rounds which
+                    range from pen paper to slide-shows and leads finally to virtual bidding to create a team of their own.
+                    The team with the maximum points at the end of the third round is declared as the winner.</p>
+            </div>
+            <div class="img wow fadeInLeft">
+                <img src='{% static "website/img/cricnometrica.png" %}' alt=""> </div>
+        </div>
+    </article>
+    <div class=right-white>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </div>
+    <article id=START-UP>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInLeft">STARTUP~CAMP</h2>
+                <p class="wow fadeInUp">E-cell aims to adhere to the vision of our prime minister "mr. Narendra modi" who has started an initiative
+                    called "start-up india stand up india”. Startup camp will connect entrepreneur from budding startup in
+                    and around chhattisgarh with the fresh entrepreneurs of our college. This will help the young minds to
+                    explore their knowledge. Startup camp will help to create a direct channel for startups with public and
+                    public with startup. Few out of many invited startups will be selected to present their work experience
+                    with their project and will share the hardship and difficulties related to their startup. </p>
+            </div>
+            <div class="img wow fadeInRight">
+                <img src='{% static "website/img/startupcamp.png" %}' alt=""> </div>
+        </div>
+    </article>
+    <div class=right-grey>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </div>
+    <article id=UTKRISHTH class=reverse-layout>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInRight">UTKRISHTH</h2>
+                <p class="wow fadeInUp">This event acknowledges the grass root works and aims at promoting low scale entrepreneurs from villages
+                    for the progress of nation. The event aims at felicitating the potential rural startup ideas to promote
+                    the entrepreneurial spirit at the grass root levels. </p>
+            </div>
+            <div class="img wow fadeInLeft">
+                <img src='{% static "website/img/utkrishth.png" %}' alt=""> </div>
+        </div>
+    </article>
+    <div class=right-white>
+        <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 10" preserveAspectRatio=none>
+            <polygon points="100 0 100 10 0 10" /> </svg>
+    </div>
+    <article id=WALLSTREET>
+        <div class=article-layout>
+            <div class=text>
+                <h2 class="wow fadeInLeft">WALLSTREET</h2>
+                <p class="wow fadeInUp">A virtual share market contest for the brokers out there. Invest money and take home big. The winner keeps
+                    it all. Challenge your mind’s trafficking power and run away with the best bet in this virtual stock
+                    broking exchange. </p>
+            </div>
+            <div class="img wow fadeInRight">
+                <img src='{% static "website/img/wallstreet.png" %}' alt=""> </div>
+        </div>
+    </article>
+</section>
+
+{% endblock content %}
