@@ -1,0 +1,36 @@
+{% extends 'website/layout.html' %} {% load static %}
+<!-- css -->
+{% block css %}
+    <link rel="stylesheet" href="{% static 'website/mentors/mentors.css' %}">
+{% endblock css %}
+<!-- js -->
+{% block js %}
+    <link rel="stylesheet" href="{% static 'website/mentors/mentors.js' %}">
+{% endblock js %}
+{% block content %}
+    <h2 class="wow fadeInUp">Our Mentors</h2>
+    <hr>
+    <div class=people>
+        <div>
+            <img data-wow-delay=.2s class="wow flipInX" src={% static "website/img/1503490457.jpg" %} alt="">
+            <div class="wow fadeInDown">
+                <h3>Tushar Vadera</h3>
+                <h4>CEO - Innolab</h4>
+            </div>
+        </div>
+        <div>
+            <img data-wow-delay=.4s class="wow flipInX" src={% static "website/img/1503490742.jpg" %} alt="">
+            <div class="wow fadeInDown">
+                <h3>Vineet Budki</h3>
+                <h4>Founder & CEO - Guiddoo World</h4>
+            </div>
+        </div>
+        <div>
+            <img data-wow-delay=.6s class="wow flipInX" src={% static "website/img/1504577811.jpeg" %} alt="">
+            <div class="wow fadeInDown">
+                <h3>Dr. Shameem S</h3>
+                <h4>Great Lakes Institute of Management</h4>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
