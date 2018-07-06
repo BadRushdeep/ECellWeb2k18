@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{% static 'website/index/index.css' %}"> {% endblock css %}
 <!-- js -->
 {% block js %}
-<link rel="stylesheet" href="{% static 'website/index/index.js' %}"> {% endblock js %}
+<script src="{% static 'website/index/index.js' %}" ></script> {% endblock js %}
 <!-- header -->
 {% block header %}
 <header>
@@ -15,7 +15,7 @@
             <span class=bold>"</span>
         </p>
         <img src={% static "website/img/enterpreneurs.svg" %} alt=""> </div>
-    <!-- <div class=diagonal></div> -->
+    <div class=diagonal></div>
 </header>
 {% endblock header %}
 <!-- content -->
