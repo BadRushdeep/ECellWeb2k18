@@ -1,0 +1,71 @@
+{% extends 'website/layout.html' %} {% load static %}
+<!-- css -->
+{% block css %}
+    <link rel="stylesheet" href="{% static 'website/speakers/speakers.css' %}">
+{% endblock css %}
+<!-- js -->
+{% block js %}
+    <link rel="stylesheet" href="{% static 'website/speakers/speakers.js' %}">
+{% endblock js %}
+{% block content %}
+    <h2>Our Speakers</h2>
+    <hr>
+    <div class="people container">
+        <div>
+            <img src={% static "website/img/rahultyagi.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Rahul Tyagi</h3>
+                <h4>Vice President - Training at Lucideus</h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/aniljoshi.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Anil Joshi</h3>
+                <h4>Managing Partner, Unicorn India Ventures</h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/ravirajan.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Ravi Ranjan</h3>
+                <h4>Head Events Partnership NASSCOM 10000 Startups</h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/rishabhdev.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Rishabh Dev</h3>
+                <h4>Managing Director at Mapplinks and Mapplinks Academy</h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/aditichourasia.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Aditi Chourasia </h3>
+                <h4>Co-Founder and CEO EngineerBabu</h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/annopkalbalia.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Annop Kalbalia</h3>
+                <h4>Tech Lead at Directi</h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/abiaryan.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Abi Aryan</h3>
+                <h4>The London School of Economics and Political Science (LSE) </h4>
+            </div>
+        </div>
+        <div>
+            <img src={% static "website/img/harjeetkhan.jpg" %} class="wow flipInX" alt="">
+            <div class="wow fadeInUp">
+                <h3>Harjeet Khanduja</h3>
+                <h4>Vice President Human Resource at Reliance JIO Infocomm</h4>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
