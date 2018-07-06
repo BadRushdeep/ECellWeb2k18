@@ -17,7 +17,7 @@ def get_event(request):
 
 
 def post_event(request):
-	return render(request,'event.html')
+	return render(request,'events.html')
 
 
 
