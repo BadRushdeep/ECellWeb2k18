@@ -9,20 +9,16 @@ let type= {
     'PRTS': 'Partner Sponsors',
 }
 
-fetch('ecellnitrr.herokuapp.com/sponsor/list/', function (res) {
-    console.log(res);
-})
-
 $(document).ready(function () {
     $.get('https://ecellnitrr.herokuapp.com/sponsor/list/').done(function (data) {
         sponsors = data.Sponsor_List;
         // console.log(JSON.stringify(sponsors, null, 2));
 
         sponsors.forEach(function (sponsor) {
-            console.log(sponsor);
+            // console.log(sponsor);
             sponsors_html.innerHTML += ` 
                 <div class='sponsor'>
-                    <img src='${sponsor.pic}'>
+                    <img src='https://ecellnitrr.herokuapp.com/${sponsor.pic}'>
                     <div class='details'>
                         <h2>${sponsor.name}</h2>
                         <p class='body'>${sponsor.details}</p>
