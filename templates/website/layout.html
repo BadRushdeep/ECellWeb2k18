@@ -6,11 +6,11 @@
     <meta charset=UTF-8>
     <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>ES18-home</title>
-    
+
     <!-- bootstrap -->
     <link href=https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css rel=stylesheet> {% block css %} css goes here {% endblock css %}
     <link rel="stylesheet" href="{% static 'website/common/bootstrap.min.css' %}">
-    
+
     <!-- animate -->
     <link rel="stylesheet" href="{% static 'website/common/animate.css' %}">
 
@@ -42,15 +42,15 @@
     <!-- footer -->
     {% include 'website/footer.html' %}
 
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- custom js -->
     {% block js %}{% endblock js %}
-
     <!-- menubar -->
     <script src="{% static 'website/menubar/nearby.js' %}"></script>
     <script src="{% static 'website/menubar/demo.js' %}"></script>
     <script src="{% static 'website/menubar/demo4.js' %}"></script>
     <script src="{% static 'website/menubar/TweenMax.min.js' %}"></script>
-
     <!-- wow js -->
     <script src="{% static 'website/common/wow.js' %}"></script>
     <script>
