@@ -4,13 +4,12 @@
 <link rel="stylesheet" href="{% static 'website/patreons/patreons.css' %}"> {% endblock css %}
 <!-- js -->
 {% block js %}
-{% endblock js %} {% block content %}
+<script src="{% static 'website/patreons/get_sponsors.js' %}"></script>
+<script src="{% static 'website/patreons/display_sponsors.js' %}"></script>
+{% endblock js %} 
+<!-- content -->
+{% block content %}
 <h1 class="wow fadeInUp">Our sponsors</h1>
 <hr>
 <div class="patreons container"> </div>
-<footer class="p-5 mt-5">
-    <div>
-        <h3 class=text-center>&#169; ECELL NITRR</h3>
-        <p class="text-center text-white-50">All rights reserved</p>
-    </div>
-    {% endblock content %}
+{% endblock content %}
