@@ -206,9 +206,9 @@ html {
         display: none
     }
     .members h4 {
-        font-family: Oswald, sans-serif;
+        /* font-family: Oswald, sans-serif; */
         text-align: center;
-        font-weight: 700
+        font-size: 20px;
     }
     .members .member {
         width: 200px;
@@ -256,11 +256,9 @@ html {
     }
     .members h3,
     .members h4 {
-        font-family: Oswald, sans-serif;
-        text-align: center
-    }
-    .members h4 {
-        font-weight: 700
+        /* font-family: Oswald, sans-serif; */
+        text-align: center;
+        font-size: 20px;
     }
     .members .member {
         width: 200px;
